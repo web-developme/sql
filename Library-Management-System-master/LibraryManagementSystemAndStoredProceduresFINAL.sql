@@ -65,10 +65,10 @@ GO
 
 	SELECT * FROM tbl_book_authors
 
-/*======================== END TABLES ======================*/
 
 
-/*==================== POPULATING TABLES ======================*/
+-- end tables 
+		
 	
 	INSERT INTO tbl_publisher
 		(publisher_PublisherName, publisher_PublisherAddress, publisher_PublisherPhone)
@@ -318,8 +318,7 @@ GO
 
 	SELECT * FROM tbl_book_authors
 END
-	/*============================== END POPULATING TABLES ==============================*/
-
+	
 /* =================== STORED PROCEDURE QUERY QUESTIONS =================================== */
 
 /* #1- How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? */
@@ -423,4 +422,3 @@ AS
 GO	
 EXEC dbo.BookbyAuthorandBranch
 
-/* ==================================== STORED PROCEDURE QUERY QUESTIONS =================================== */
